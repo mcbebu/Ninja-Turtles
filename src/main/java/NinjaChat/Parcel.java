@@ -20,5 +20,9 @@ public class Parcel {
         this.status = Enum.valueOf(Status.class, status.toUpperCase());
     }
 
+    void reschedule(LocalDate dateToReschedule) {
+        this.deliveryDate = dateToReschedule;
+    }
+
 
 }
