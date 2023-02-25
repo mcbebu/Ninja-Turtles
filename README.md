@@ -1,6 +1,6 @@
 # Ninja-Turtles
 
-Target audience: Cosignees who use the ninja chats
+Target audience: Cosignees who use the ninjachat
 
 Problem: Wait time for live agents is too long
 
