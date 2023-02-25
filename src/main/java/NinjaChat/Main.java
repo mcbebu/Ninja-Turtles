@@ -1,7 +1,31 @@
 package NinjaChat;
+import java.io.IOException;
 
-class Main {
-    public static void main(String[] args) {
-        System.out.println("a");
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+
+/**
+ * A GUI for Duke using FXML.
+ */
+public class Main extends Application {
+
+    private NinjaBot ninjaBot = new NinjaBot();
+
+    @Override
+    public void start(Stage stage) {
+        try {
+            stage.setTitle("Duke");
+            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/view/MainWindow.fxml"));
+            AnchorPane ap = fxmlLoader.load();
+            Scene scene = new Scene(ap);
+            stage.setScene(scene);
+            fxmlLoader.<MainWindow>getController().setNinja(ninjaBot);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
