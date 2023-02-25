@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.Iterator;
 
 import NinjaChat.parcel.ParcelList;
-import org.json.*;
 public class NinjaBot {
 
     private ParcelList pc = new ParcelList();
@@ -14,6 +13,7 @@ public class NinjaBot {
         try {
             HttpClientNinja hcn = new HttpClientNinja();
             String output = hcn.callApi(input);
+            System.out.println(output);
             if (output.equals("sorry")) {
                 return ui.printSorry();
             } else if (output.equals("change")) {
