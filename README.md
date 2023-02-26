@@ -10,6 +10,11 @@ In doing so, we seek to reduce the workload & reliance on live agents, and addre
 * Therefore, our team has implemented the feature in a convenient call-to-action button format, where users can easily update their preferred delivery time for a small fee
 * Integrated into the existing automated chatpot options to maintain a consistent user interface and design
 
+**Integration of a Natural Language Processing Model**
+* The implementation of a NLP model to perform keyword detection and sentiment analysis in consumers' messages
+* Effective re-directing of consumers to automated options that can address their queries
+* Alleviate the frustration felt by consumers in queue
+
 
 Target audience: Cosignees who use ninjachat
 
