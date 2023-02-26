@@ -15,7 +15,7 @@ In doing so, we seek to reduce the workload & reliance on live agents, and addre
 * Effective re-directing of consumers to automated options that can address their queries
 * Alleviate the frustration felt by consumers in queue
 
-**Tech Stack**
+# Tech Stack
 * NLP Model: Python (Spacey & Matcher)
 * Chatbot feature implementation: Java
 
