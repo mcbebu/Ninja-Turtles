@@ -5,10 +5,10 @@ Ninja Van has been facing a long=term manpower issue for the NinjaBot chatbot, w
 In doing so, we seek to reduce the workload & reliance on live agents, and address consumers' queries promptly.
 
 # Features
-** Implementation of the Reschedule Call-To-Action Feature **
-* Our team has identified the delivery reschedule function has largely been a manual process for Ninjachat, where it can only be performed by speaking to a live agent. *
-* Therefore, our team has implemented the feature in a convenient call-to-action button format, where users can easily update their preferred delivery time for a small fee*
-* Integrated into the existing automated chatpot options to maintain a consistent user interface and design*
+**Implementation of the Reschedule Call-To-Action Feature**
+* Our team has identified the delivery reschedule function has largely been a manual process for Ninjachat, where it can only be performed by speaking to a live agent.
+* Therefore, our team has implemented the feature in a convenient call-to-action button format, where users can easily update their preferred delivery time for a small fee
+* Integrated into the existing automated chatpot options to maintain a consistent user interface and design
 
 
 Target audience: Cosignees who use ninjachat
